@@ -1,0 +1,9 @@
+.CardFilter {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+
+  .sort-by {
+    align-content: end;
+  }
+}

@@ -1,0 +1,68 @@
+.CourseCard {
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+
+  .poster-container {
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  .info-container {
+    p {
+      margin-bottom: 0;
+    }
+
+    border-right: 1px solid #cdcdcd;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .light-text {
+      font-style: italic;
+      font-size: 15px;
+      color: #989898;
+    }
+
+    .title-text {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+
+  }
+
+  .action-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    button {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .key-value {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    .key {
+      font-weight: bold;
+    }
+
+    .value {
+      color: #6a6a6a;
+    }
+  }
+
+  .info {
+    margin-top: 20px;
+    color: #6a6a6a;
+  }
+}
